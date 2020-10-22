@@ -16,13 +16,13 @@ Afterwards we need to setup our amplify project:
 amplify init
 ```
 
-Then we add the GraphQL API:
+Then we add the authentication service:
 
 ```shell
-amplify add api
+amplify add auth
 ```
 
-When made all the desired changes to the GraphQL schema recently created, we need to push our changes.
+Finally we need to push our changes.
 
 ```shell
 amplify push
